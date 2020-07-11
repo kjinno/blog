@@ -1,0 +1,52 @@
+baseURL = "https://jin-no.jp/"
+languageCode = "ja"
+title = "Personal notes"
+theme = "minimal"
+disqusShortname = "" # delete this to disable disqus comments
+googleAnalytics = ""
+
+publishDir = "docs"
+
+[params]
+    author = "Kohei Jinno "
+    description = ""
+    githubUsername = "kjinno"
+    accent = "#2e6da4"
+    showBorder = true
+    backgroundColor = "#fff"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    copyright = "&copy; 2020 jin-no."
+    dateFormat = "2006-01-02"
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 3
+
+
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+[[menu.icon]]
+    url = "https://github.com/kjinno/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/kjin_no/"
+    name = "twitter"
+    weight = 3
