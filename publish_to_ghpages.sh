@@ -21,7 +21,7 @@ rm -rf public/*
 
 echo "Generating site"
 hugo
-cp -f ./CNAME > ./public/CNAME
+echo "jin-no.jp" > ./public/CNAME
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
